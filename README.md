@@ -7,6 +7,9 @@ $\mathcal{A} 1. \ \emptyset \in \mathcal{A};$
 $\mathcal{A} 2.$ For every $A \subseteq \Omega,$ if $A \in \mathcal{A},$ then $A^c \in \mathcal{A}$ 
 
 $\mathcal{A}3.$ For every $A,\ B \subseteq \Omega,$ if $A, \ B \in \mathcal{A},$ then $A \cup B \in \mathcal{A}$ 
+$$
+\mathcal{A}3. \text{ For every } A,\ B \subseteq \Omega, \text{ if } A, \ B \in \mathcal{A}, \text{ then } A \cup B \in \mathcal{A}
+$$
 
 An algebra $\mathcal F$ is called a $\sigma-algebra$ or $\sigma-field$ if it also satisfies the following additional condition
 
