@@ -42,10 +42,30 @@ $X_t$ is $\mathcal F_t-measurable$
 
 ### Preface
 
-This research explores the intersection of financial mathematics, machine learning, and econometrics to develop advanced hedging strategies in incomplete markets. The primary focus is on mean-variance hedging, a well-established method aimed at minimizing portfolio risk relative to a target payoff. Leveraging the capabilities of neural networks, we aim to approximate optimal hedging strategies, addressing the inherent complexities and high-dimensional nature of financial data.
+Let $(\Omega, \mathcal{F}, \mathbb{F}, P)$ be a filtered probability space, and let $X = \{(X_t^1, \ldots, X_t^d) : t \geq 0\}$ be a $d$-dimensional stochastic process representing the discounted prices of $d$ risky assets. Consider a company with an obligation to make a payment at some future time $T > 0$, represented by the random variable $H$. This payment could be, for example, an option on a share.
+
+Ideally, the company aims to construct a portfolio of assets that will match the value of $H$ at time $T$ under all circumstances. If perfect replication is not feasible, the goal is to find a portfolio whose value is as close as possible to $H$ at time $T$. Traditional models like the Black-Scholes model in continuous time and the Binomial model in discrete time allow for such perfect replication. However, we seek to generalize these ideas to find portfolios that replicate a payoff as closely as possible by minimizing a quadratic utility functional.
+
+Specifically, if $V_T(\phi)$ denotes the value of a trading strategy $\phi$ at time $T$, we aim to choose a strategy that minimizes the expected squared replication error:
+$$
+\mathbb{E}[(V_T(\phi) - H)^2]
+$$
+over all admissible trading strategies.
+
+To achieve this, we leverage the universal approximation theorem to estimate the trading strategies $\phi$ using $\phi_\theta$ with a Long Short-Term Memory (LSTM)-like recurrent neural network. This approach is defined as follows:
+$$
+C_n^\theta = g_{NN}^\theta(C_{n-1}^\theta, X_n) \quad \text{and} \quad \phi_{n+1}^\theta = f_{NN}^\theta(C_n^\theta)
+$$
+for $n = 0, 1, \ldots, T-1$, where $f_{NN}$ and $g_{NN}$ are neural networks and $\theta$ is the vector of parameters for these networks. This formulation ensures that $\phi$ is a predictable process, allowing the terminal value to be written as:
+$$
+V_T^\theta(\phi) = v_0 + (\phi_\theta \cdot X)_T.
+$$
+
+We then find parameter estimates $\hat{\theta}$ such that:
+$$
+\mathbb{E}[(V_T^{\hat{\theta}} - H)^2] = \min_\theta \mathbb{E}[(V_T^\theta - H)^2].
+$$
 
 A significant innovation in this research is the use of Vector Autoregression (VAR) models as the underlying sample path generators. VAR models are powerful tools in econometrics, capable of capturing linear interdependencies among multiple time series. By fitting a VAR model to historical data, we can simulate realistic future scenarios, providing a robust framework for training our neural network-based hedging strategies.
-
-The project's framework is set within a filtered probability space $(\Omega, \mathcal{F}, \mathbb{F}, P)$, with $X = \{(X_t^1, \ldots, X_t^d) : t \geq 0\}$ representing the discounted prices of multiple risky assets modeled as a $d$-dimensional cadlag semimartingale. Our objective is to find the initial capital and trading strategy that minimize the expected squared replication error, providing a theoretically sound and practically viable solution to hedging in incomplete markets.
 
 By integrating the statistical rigor of VAR models with the approximation power of neural networks, this research aims to contribute to the field of quantitative finance, offering new insights and tools for effective risk management. The outcomes of this study have the potential to enhance the robustness and accuracy of hedging strategies, ultimately benefiting financial practitioners and advancing academic understanding in this domain.
