@@ -1,10 +1,3 @@
-- 👋 Hi, I’m @ditiroletsoalo
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
 
 ### Sigma algebra
 $\pmb {Definition}$ Let $\Omega$ be a (non-empty) set. A collection $A\subseteq 2 ^\Omega$ of subsets of Ω is called an
@@ -22,6 +15,13 @@ $\sigma \mathcal{A}4.$ For every countable collection {${A_n : n=1,2,3,....}$} o
 \[ \bigcup_{n=1}^{\infty} A_n \in \mathcal F \]
 \end{align*}
 
+
+$$
+\begin{align*}
+\bigcup_{n=1}^{\infty} A_n &\in \mathcal{F} \\
+\text{and} \quad \bigcap_{n=1}^{\infty} B_n &\in \mathcal{G}
+\end{align*}
+$$
 
 ### Measure space
 If $\Omega$ is a set and $\mathcal F$ is a sigma algebra on $\Omega$, we will call the pair ($\Omega$, $\mathcal F$) a measurable space and
