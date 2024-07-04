@@ -10,7 +10,7 @@ $\mathcal{A}3.$ For every $A,\ B \subseteq \Omega,$ if $A, \ B \in \mathcal{A},$
 
 An algebra $\mathcal F$ is called a $\sigma-algebra$ or $\sigma-field$ if it also satisfies the following additional condition
 
-$\sigma \mathcal{A}4.$ For every countable collection ${A_n : n=1,2,3,....}$ of subsets of  $\Omega$ with$A_n \in \mathcal F$ for each $n \geq 1,$
+$\sigma \mathcal{A}4.$ For every countable collection { ${A_n : n=1,2,3,....}$ } of subsets of  $\Omega$ with$A_n \in \mathcal F$ for each $n \geq 1,$
 
 \begin{align*}
 \[ \bigcup_{n=1}^{\infty} A_n \in \mathcal F \]
