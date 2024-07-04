@@ -2,7 +2,8 @@
 ### Sigma algebra
 $\pmb {Definition}$ Let $\Omega$ be a (non-empty) set. A collection $A\subseteq 2 ^\Omega$ of subsets of Ω is called an
 algebra on $\Omega$ if 
-$\mathcal{A} 1. \ \emptyset \in \mathcal{A};$ \newline
+$\mathcal{A} 1. \ \emptyset \in \mathcal{A};$ 
+
 $\mathcal{A} 2.$ For every $A \subseteq \Omega,$ if $A \in \mathcal{A},$ then $A^c \in \mathcal{A}$ 
 
 $\mathcal{A}3.$ For every $A,\ B \subseteq \Omega,$ if $A, \ B \in \mathcal{A},$ then $A \cup B \in \mathcal{A}$ 
