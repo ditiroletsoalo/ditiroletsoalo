@@ -37,3 +37,15 @@ call X a continuous-time stochastic process.
 
 $\pmb {Definition}.$ Let ($\Omega$, $\mathcal F$, $\mathbb {P}$) be a probability space and $\mathbb I = [0, \infty)$ be an index set. A filtration $\mathbb {F} = \{ \mathcal F_t:t \in \mathbb I \}$ is an increasing collection of $sub-\sigma-algebras$ of $\mathcal F$; i.e., $\mathcal F_s \subseteq \mathcal F_t \subseteq \mathcal F$ for $s \leq t,$ $s, t \in \mathbb I$. A stochastic process $X = {X_t: t \in \mathbb I}$ is adapted to a filtration $\mathbb F$ if for every $t \in \mathbb I,$
 $X_t$ is $\mathcal F_t-measurable$
+
+
+
+### Preface
+
+This research explores the intersection of financial mathematics, machine learning, and econometrics to develop advanced hedging strategies in incomplete markets. The primary focus is on mean-variance hedging, a well-established method aimed at minimizing portfolio risk relative to a target payoff. Leveraging the capabilities of neural networks, we aim to approximate optimal hedging strategies, addressing the inherent complexities and high-dimensional nature of financial data.
+
+A significant innovation in this research is the use of Vector Autoregression (VAR) models as the underlying sample path generators. VAR models are powerful tools in econometrics, capable of capturing linear interdependencies among multiple time series. By fitting a VAR model to historical data, we can simulate realistic future scenarios, providing a robust framework for training our neural network-based hedging strategies.
+
+The project's framework is set within a filtered probability space $(\Omega, \mathcal{F}, \mathbb{F}, P)$, with $X = \{(X_t^1, \ldots, X_t^d) : t \geq 0\}$ representing the discounted prices of multiple risky assets modeled as a $d$-dimensional cadlag semimartingale. Our objective is to find the initial capital and trading strategy that minimize the expected squared replication error, providing a theoretically sound and practically viable solution to hedging in incomplete markets.
+
+By integrating the statistical rigor of VAR models with the approximation power of neural networks, this research aims to contribute to the field of quantitative finance, offering new insights and tools for effective risk management. The outcomes of this study have the potential to enhance the robustness and accuracy of hedging strategies, ultimately benefiting financial practitioners and advancing academic understanding in this domain.
