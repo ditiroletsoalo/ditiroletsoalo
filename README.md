@@ -27,7 +27,7 @@ the elements of $\mathcal F$ will be called measurable sets.
 
 
 ### stochastic processes
-$\pmb {Definition}$ Let ($\Omega$, $\mathcal F$, $\mathbb {P}$) be a probability space and $\emptyset \neq \mathbb I \subseteq [0, \infty)$ be a set. A stochastic
+$\pmb {Definition}.$ Let ($\Omega$, $\mathcal F$, $\mathbb {P}$) be a probability space and $\emptyset \neq \mathbb I \subseteq [0, \infty)$ be a set. A stochastic
 process $X= \{ X_t : t \in \mathbb I})$ is a collection of random variables. We call I the index set. If $\mathbb I \subseteq \mathbb N,$
 we call X a discrete-time stochastic process, while if $\mathbb I = [0,\infty)$ or $\mathbb I = [0, T]$ for some $T > 0$, we
 call X a continuous-time stochastic process.
@@ -35,5 +35,5 @@ call X a continuous-time stochastic process.
 
 ### Filtration 
 
-$\pmb {Definition}$ Let ($\Omega$, $\mathcal F$, $\mathbb {P}$) be a probability space and $\mathbb I = [0, \infty)$ be an index set. A filtration $\mathbb {F} = \{ \mathcal F_t:t \in \mathbb I \}$ is an increasing collection of $sub-\sigma-algebras$ of $\mathcal F$; i.e., $\mathcal F_s \subseteq \mathcal F_t \subseteq \mathcal F$ for $s \leq t,$ $s, t \in \mathbb I$. A stochastic process $X = {X_t: t \in \mathbb I}$ is adapted to a filtration $\mathbb F$ if for every $t \in \mathbb I,$
+$\pmb {Definition}.$ Let ($\Omega$, $\mathcal F$, $\mathbb {P}$) be a probability space and $\mathbb I = [0, \infty)$ be an index set. A filtration $\mathbb {F} = \{ \mathcal F_t:t \in \mathbb I \}$ is an increasing collection of $sub-\sigma-algebras$ of $\mathcal F$; i.e., $\mathcal F_s \subseteq \mathcal F_t \subseteq \mathcal F$ for $s \leq t,$ $s, t \in \mathbb I$. A stochastic process $X = {X_t: t \in \mathbb I}$ is adapted to a filtration $\mathbb F$ if for every $t \in \mathbb I,$
 $X_t$ is $\mathcal F_t-measurable$
