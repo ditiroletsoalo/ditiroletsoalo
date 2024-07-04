@@ -1,6 +1,6 @@
 
 ### Sigma algebra
-$\pmb {Definition}$ Let $\Omega$ be a (non-empty) set. A collection $A\subseteq 2 ^\Omega$ of subsets of Ω is called an
+$\pmb {Definition}.$ Let $\Omega$ be a (non-empty) set. A collection $A\subseteq 2 ^\Omega$ of subsets of Ω is called an
 algebra on $\Omega$ if 
 $\mathcal{A} 1. \ \emptyset \in \mathcal{A};$ 
 
