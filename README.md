@@ -17,7 +17,8 @@
 
 ## 📌 Highlights
 - 🧾 **Honours Thesis**: *Mean-Variance Hedging with Neural Networks using Vector Autoregressive Models*  
-- 🏆 Winner of **Predictive Insights Hackathon** (youth employment prediction)  
+- 🏆 Winner of [Predictive Insights Hackathon](https://github.com/ditiroletsoalo/Youth-Employment-Prediction/blob/main/README.md) (youth employment prediction)
+ 
 - 💼 Experience as a **tutor, mentor, and subwarden** at UCT  
 - 🔬 Research interests in **Gaussian processes, Bayesian modeling, and predictive analytics**  
 
