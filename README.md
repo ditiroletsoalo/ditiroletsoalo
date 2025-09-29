@@ -24,9 +24,11 @@
 ---
 
 ## 📂 Featured Projects
-- 📈 [Market Hedging with Neural Networks](#)  
-- 🤖 [Student Success Prediction (Hackathon Project)](#)  
-- 🌍 [Clustering & Time Series Forecasting](#)  
+- 📈 [Market Hedging with Neural Networks](#) – because finance doesn’t like surprises  
+- 🤖 [Student Success Prediction (Hackathon Project)](#) – helping institutions spot rising stars  
+- 🌍 [Bayesian & Time Series Forecasting](#) – from ecosystems to economies  
+- ⚡ [High-Frequency Trading Data Analysis](#) – where every millisecond counts (and so does every typo in your code)  
+
 
 ---
 
