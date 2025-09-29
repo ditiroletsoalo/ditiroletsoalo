@@ -1,8 +1,8 @@
 # Hi there 👋 I'm Ditiro Letsoalo  
 
 🎓 Master's student in **Statistics and Data Science** at the University of Cape Town.  
-📊 Passionate about **time series analysis, Bayesian methods, and machine learning**.  
-💡 Experienced in solving real-world problems through **hackathons, research, and projects**.  
+📊 Passionate about **Passionate about time series analysis, Bayesian methods, machine learning**, and their applications in finance and ecology..  
+💡 Experienced in solving real-world problems through **hackathons, research, and academic projects**.  
 🚀 Interested in applying data-driven solutions to finance, business, and social challenges.  
 
 ---
