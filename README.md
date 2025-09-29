@@ -24,7 +24,7 @@
 ---
 
 ## 📂 Featured Projects
-- 📈 [Market Hedging with Neural Networks]([https://github.com/YourUsername/market-hedging-nn](https://github.com/ditiroletsoalo/Mean-Variance-Hedging-with-NN-using-VAR)) – because finance doesn’t like surprises
+- 📈 [Market Hedging with Neural Networks](https://github.com/ditiroletsoalo/Mean-Variance-Hedging-with-NN-using-VAR) – because finance doesn’t like surprises
 - 🤖 [Student Success Prediction (Hackathon Project)](#) – helping institutions spot rising stars  
 - 🌍 [Bayesian & Time Series Forecasting](#) – from ecosystems to economies  
 - ⚡ [High-Frequency Trading Data Analysis](#) – where every millisecond counts (and so does every typo in your code)  
